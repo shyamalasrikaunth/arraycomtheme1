@@ -1,0 +1,110 @@
+.servicessection
+{padding:70px 0px 70px 0px;
+    background:#fff;
+height:auto;
+color:#5d5d5d;}
+.services-section
+{
+    padding:70px 0px 0px 0px;
+}
+.title-heading
+{
+    color:#333;
+}
+/* .service-left .service-icon
+{
+    margin-left:500px;
+} */
+.services-text-left h4,.services-text-left p
+{
+    text-align:right;
+}
+.services-text-right h4,.services-text-left p
+{
+    text-align:left;
+}
+.service-icon
+{
+    background:silver;
+    padding:20px;
+    border-radius:100%;
+    color:black;
+    text-align:center;
+    align-content: center;
+    width:50%;
+}
+.servicessection .list-items
+{
+    list-style: none;
+}
+.list-wrapper
+{
+    display:flex;
+    margin-bottom:30px; 
+}
+.icon-outer 
+{
+    border-radius:100%;
+    padding:10px;
+    margin-right: 23px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    box-sizing: content-box;
+    
+}
+.icon-outer-color1
+{
+    background-color: #f3a712;
+}
+.icon-outer-color2
+{
+    background-color: #d83030;
+}
+.icon-outer-color3
+{
+    background-color: #235789;
+}
+ 
+.list-icon
+{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 33px;
+    height: 33px;
+    width: 33px;
+    color: #fff;
+    text-align: center;
+}
+.list-icon .img1
+{
+    width:50px;
+}
+.list-icon .img2 {
+    width: 57px;
+    padding: 5px 10px 10px 10px;
+}
+.fas
+{
+    font-size:30px;
+    padding:15px;
+}
+/* .service-icon::after {
+    content: '';
+    border-left: 1px dotted #fff;
+    height: 1500px;
+    top: 14px;
+    right: calc(7px - (1px/2));
+    position: absolute;
+    width: 1px;
+} */
+
+.list-title
+{
+    font-size: 20px;
+    line-height: 1.4em;
+    margin-bottom:4px;
+    color:black;
+}
