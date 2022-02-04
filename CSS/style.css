@@ -626,3 +626,12 @@ padding:70px;
   color: #fff;
   background-color: #d83030;
 }
+.locdetails
+{
+  background-color: #33383e;
+    background-image: url("/Images/Pages/contactbg.jpg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:500px;
+}
