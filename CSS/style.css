@@ -633,5 +633,42 @@ padding:70px;
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: contain;
-    height:500px;
+    height:620px;
+    padding:50px;
+    color:white;
 }
+.icon-holder
+{
+  background-color:#d83030;
+  height: 40px;
+  width: 40px;
+  transform: rotate(0deg);
+border-radius:100%;
+}
+.fa-map-marker,.fa-phone-alt,.fa-envelope
+{
+  color:white;
+  padding: 14px;
+  font-size: 16px;
+}
+.color-yellow
+{
+  background-color:#f3a712 !important;
+}
+.color-blue
+{
+  background-color: #235789  !important;
+}
+.greyfont
+{
+  color:#bbb;
+}
+.blackfont
+{
+  color:#333;
+}
+.contact-map
+{
+height:400px;
+}
+ 
