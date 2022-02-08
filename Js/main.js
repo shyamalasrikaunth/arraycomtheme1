@@ -103,4 +103,60 @@ $(document).ready(function() {
 //          scrollTop: 0
 //      }, 100)
 //  });
- 
+$('.solar-area').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1500,
+  arrows: false,
+  dots: false,
+  pauseOnHover: true,
+  responsive: [{
+      breakpoint: 768,
+      settings: {
+          slidesToShow: 4
+      }
+  }, {
+      breakpoint: 520,
+      settings: {
+          slidesToShow: 2
+      }
+  }]
+});
+$('.system-area').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  mobileFirst:true,
+  responsive: [{
+  breakpoint: 1024,
+  settings: {
+    slidesToShow: 2,
+    slidesToScroll: 3,
+    infinite: true,
+    dots: true
+  }
+  },
+  {
+  breakpoint: 600,
+  settings: {
+    slidesToShow: 1,
+    slidesToScroll: 2
+  }
+  },
+{
+  breakpoint: 480,
+  settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }
+},{
+breakpoint: 375,
+  settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }
+}             
+            ]
+});
