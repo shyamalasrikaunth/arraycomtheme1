@@ -632,7 +632,7 @@ padding:70px;
 .locdetails
 {
   background-color: #33383e;
-    background-image: url("Images/Pages/contactbg.jpg");
+    background-image: url("/Images/Pages/contactbg.jpg");
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: contain;
