@@ -63,11 +63,12 @@ $(document).ready(function() {
        autoplaySpeed:1000,
        items:5,
        autoplay:true,
+       dots: false,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
       responsive:{
            0:{
-               items:1
+               items:2
            },
            600:{
                items:3
