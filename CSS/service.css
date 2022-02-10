@@ -41,11 +41,12 @@ color:#5d5d5d;}
 {
     display:flex;
     margin-bottom:30px; 
+    align-items: flex-start;
 }
 .icon-outer 
 {
     border-radius:100%;
-    padding:10px;
+    /* padding:10px; */
     margin-right: 23px;
     display: inline-flex;
     justify-content: center;
@@ -53,7 +54,19 @@ color:#5d5d5d;}
     flex-shrink: 0;
     position: relative;
     box-sizing: content-box;
+
     
+    
+}
+.icon-wrapper
+{
+    border-radius:100%;
+   
+    width: 65px;
+     height: 65px;
+     line-height: 1;
+position: relative;
+z-index: 1;
 }
 .icon-outer-color1
 {
@@ -77,6 +90,8 @@ color:#5d5d5d;}
     width: 33px;
     color: #fff;
     text-align: center;
+
+    
 }
 .list-icon .img1
 {

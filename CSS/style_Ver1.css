@@ -236,7 +236,7 @@ body {
   .banner-content {
       font-family:'Fira Sans';
     position: absolute;
-     z-index:1;
+    z-index: 99999;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -267,7 +267,6 @@ body {
      
 }
 /*****about section ***/
-.
 .about1
 {
     padding-top:100px;
@@ -958,74 +957,75 @@ height:400px;
   color: #545154
 
 }
- 
 /***media queries****/
 @media (max-width: 575px){
-  /**banne section **/
   .banner-content{
     width:100%;
   }
-  .img-content img {
-   
-    height: 45vh !important;
-     
-}
-  .banner-content h1{
-    font-size:37px !important;
-    line-height:50px;
-    text-align: center !important;
+  .img-content img 
+  {
+    height: 50vh;
   }
-  /**about section **/
-  .about1
-{
-  padding-top:15px;
-   
-  margin-bottom:10px;
-}
+  .banner-content h1{
+    font-size:40px !important;
+    line-height:50px;
+  }
   .abttitle
   {
     width:100%;
   }
-  .abttitle h2
-  {
-    font-size:1.05rem;
-    font-weight:600;
-  }
-  .about-content
-  {
-    padding-top:15px;
-    margin:0;
-  }
-   .containersection
-  .title-desc
-  {
-    font-size:16px !important;
-  }
   .containersection
 {
-  padding:20px;
-  margin-top:20px;
+  padding:0px;
 }
-.containersection img
+.servicessection
 {
-  width:100%;
+padding: 0px;
 }
  
- .sub-title span{
-   padding-top:10px;
- };
- 
- .divider{
-   padding:10px 0px 10px 0px;
- }
- 
- 
-hr {
-    background-color: #bb0b0b;
-    height: 1px;
-    border: 0;
+.about1
+{
+  padding-top:15px;
 }
-/***call for action  ***/
+.title-desc {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: left;
+  text-justify: inter-word;
+  word-spacing:-2px;
+   
+}
+.title-heading
+{
+  font-size:1.15rem;
+  font-weight:600;
+}
+.about-content{
+  margin:0px;
+  padding-top:20px;
+}
+ 
+.servicessection .list-items {
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+}
+.containersection img{
+  width:333px;
+  padding-top:10px;
+}
+.containersection .sub-title
+{
+  padding-top:10px;
+}
+.containersection p
+{
+  font-size:17px;
+  text-align:left;
+}
+.divider
+{
+  padding:5px 0px 5px 0px;
+}
 .callforaction
 {
   padding: 40px 0px 40px 0px;
@@ -1034,160 +1034,5 @@ hr {
 {
   font-size:1.15rem;
   font-weight: 500;
-}
-a.gtouch {
-  /* other styles */
-  display: block;
-  width:150px;
-  margin-top:10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.imgservice img{
-  width:70px;
-  height:70px;
-  padding-left:20px;
-}
-/***services section ***/
-.servicessection 
-{
-  padding: 20px 0px 20px 0px;
-}
-.servicessection .title-desc
-{
-  font-size:15px;
-}
-.title-heading
-  {
-    font-size:1.05rem;
-    font-weight:600;
-  }
-  .services-section {
-    padding: 20px 0px 0px 0px;
-}
-.list-icon .img1 {
-  width: 70px;
-  padding:15px;
-}
-.list-icon .img2 {
-  width: 64px;
-  padding: 13px 14px 10px 17px;
-}
-.list-description 
-{
-  font-size: 14px;
-    text-align: justify;
-}
-.fa-parking {
-  font-size: 30px;
-  padding: 18px;
-}
-/***team section ***/
-.borderclass
-{
-  width:85%;
-  margin:auto;
-  margin-bottom:20px !important;
-}
-.borderclass img
-{
-  padding:10px;
-  height:175px;
-}
-.team-position
-{
-  font-size:14px;
-}
-.share-icon span
-{
-  right:38px;
-}
-.team-social1
-{
-  bottom:201px;
-  right:41px;
-}
-.team{
-  padding:0px;
-}
-/***footer**/
-.subscribe p
-{
-font-size:11px;
-}
-/***division pages**/
- 
-.divlists li a 
-{
-  font-size:15px;
-}
-.divlists li a:before
-{
-  margin-right:10px;
-}
-.servicebanner .img-content img{
-height:35vh;
-}
-.servicebanner  .banner-content
-{
-  top:37%;
-}
-.services {
-  padding: 20px 0px 10px 0px;
-}
-.services .title-desc 
-{
-  font-size:15px;
-
-}
-.sub-title span:after 
-{
-  top:65%;
-}
-
-/**service.html**/
-
-/***contact.html**/
-.contact{padding:0px;}
-.locdetails
-{
-  padding:20px;
-  height:720px;
-}
-.icon-holder
-{
-  margin:auto;
-}
-.locdetails p {
-  text-align:center;
-};
-input [type="submit"]
-{
- margin:20px 0px 20px 0px;
-}
-
-/**system Integration page**/
-.system-area .slick-slide img
-{
-  width:100% !important ;
-}
-.system-area h4
-{
-  font-size:1.05rem !important;
-}
-/**solar page**/
-.solarimg 
-{
-  width:100%;
-  height:100% !important;
-  padding-bottom:20px;
-}
-.nav-tabs .nav-item{
-  width: 31%;
-  padding:0px;
-}
-.nav-tabs .nav-link{
-  font-size:12px;
-
 }
 }
