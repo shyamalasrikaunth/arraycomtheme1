@@ -261,7 +261,7 @@ body {
   background:rgba(0, 0, 0, 0.6);
  }
 .img-content img {
-    width:100%;
+    width:100%; 
     height:70vh;
     position: relative;
      
@@ -956,4 +956,30 @@ height:400px;
   font-size: 15px;
   color: #545154
 
+}
+/***media queries****/
+@media (max-width: 575px){
+  .banner-content{
+    width:100%;
+  }
+  .banner-content h1{
+    font-size:40px !important;
+    line-height:50px;
+  }
+  .abttitle
+  {
+    width:100%;
+  }
+  .containersection
+{
+  padding:0px;
+}
+.servicessection
+{
+padding: 0px;
+}
+.icon-outer
+{
+  border-radius:0%;
+}
 }
