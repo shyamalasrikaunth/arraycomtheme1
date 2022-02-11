@@ -119,8 +119,8 @@ $('.solar-area').slick({
   responsive: [{
     breakpoint: 1024,
     settings: {
-      slidesToShow: 2,
-      slidesToScroll: 3,
+      slidesToShow: 1,
+      slidesToScroll: 1,
       infinite: true,
       dots: true
     }
@@ -129,7 +129,7 @@ $('.solar-area').slick({
     breakpoint: 600,
     settings: {
       slidesToShow: 1,
-      slidesToScroll: 2
+      slidesToScroll: 1
     }
     },
   {
@@ -166,7 +166,7 @@ $('.system-area').slick({
   breakpoint: 600,
   settings: {
     slidesToShow: 1,
-    slidesToScroll: 2
+    slidesToScroll: 1
   }
   },
 {

@@ -958,7 +958,10 @@ height:400px;
   color: #545154
 
 }
- 
+.tab-pane img{
+  width: 100%;
+  height: 60%;
+}
 /***media queries****/
 @media (max-width: 575px){
   /**banne section **/
@@ -1116,7 +1119,10 @@ a.gtouch {
 font-size:11px;
 }
 /***division pages**/
- 
+ .divlists
+ {
+   padding-top:20px;
+ }
 .divlists li a 
 {
   font-size:15px;
@@ -1189,5 +1195,15 @@ input [type="submit"]
 .nav-tabs .nav-link{
   font-size:12px;
 
+}
+.tab-pane img{
+  width:100%;
+  height:60%;
+}
+
+/***tfm page***/
+.tfmimg1
+{
+  padding-top:20px;
 }
 }
