@@ -119,12 +119,13 @@ $('.solar-area').slick({
   responsive: [{
     breakpoint: 1024,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 2,
+      slidesToScroll: 2,
       infinite: true,
       dots: true
     }
     },
+   
     {
     breakpoint: 600,
     settings: {
@@ -148,8 +149,8 @@ $('.solar-area').slick({
               ]
 });
 $('.system-area').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToShow: 2,
+  slidesToScroll: 2,
   autoplay: true,
   autoplaySpeed: 2000,
   mobileFirst:true,
@@ -157,7 +158,7 @@ $('.system-area').slick({
   breakpoint: 1024,
   settings: {
     slidesToShow: 2,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     infinite: true,
     dots: true
   }
@@ -165,8 +166,8 @@ $('.system-area').slick({
   {
   breakpoint: 600,
   settings: {
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: 2,
+    slidesToScroll: 2
   }
   },
 {

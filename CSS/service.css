@@ -95,11 +95,14 @@ z-index: 1;
 }
 .list-icon .img1
 {
-    width:50px;
+    width:57px;
+    padding-top: 10px;
+    padding-left: 6px;
 }
 .list-icon .img2 {
     width: 57px;
-    padding: 5px 10px 10px 10px;
+    padding: 11px 10px 10px 15px;
+    /* padding: 5px 10px 10px 10px; */
 }
 .fas
 {
@@ -122,4 +125,10 @@ z-index: 1;
     line-height: 1.4em;
     margin-bottom:4px;
     color:black;
+}
+@media (max-width: 767px) {
+    .title-heading
+  {
+    font-size:1.5rem !important;
+  }
 }
