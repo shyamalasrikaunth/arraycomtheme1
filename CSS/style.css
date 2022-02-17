@@ -155,7 +155,8 @@ body {
   .navbar ul li a {
     color: #333;
   }
-  
+  .navbar.sticky ul.navbar-nav li>a {color:#FFF !important;}
+ .navbar ul.navbar-nav li>a:hover {color:#d83030 !important;}
   .navbar ul li a:hover  {
     color: #d83030;
   }
@@ -212,7 +213,13 @@ body {
     transition: all 0.3s ease;
     margin: 2px 3px;
   }
-   
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    color:white;
+  }
   /****banner ***/
   .BannerSection
   {
