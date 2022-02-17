@@ -55,6 +55,10 @@ $(function () {
     $('li.active').removeClass('active');
     $(this).addClass('active');
 });
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
+
 $(document).ready(function() {
  
   $("#owl-demo").owlCarousel({
@@ -63,11 +67,12 @@ $(document).ready(function() {
        autoplaySpeed:1000,
        items:5,
        autoplay:true,
+       dots: false,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
       responsive:{
            0:{
-               items:1
+               items:2
            },
            600:{
                items:3
@@ -112,20 +117,40 @@ $('.solar-area').slick({
   dots: false,
   pauseOnHover: true,
   responsive: [{
-      breakpoint: 768,
-      settings: {
-          slidesToShow: 4
-      }
-  }, {
-      breakpoint: 520,
-      settings: {
-          slidesToShow: 2
-      }
-  }]
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      infinite: true,
+      dots: true
+    }
+    },
+   
+    {
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+    },
+  {
+    breakpoint: 480,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },{
+  breakpoint: 375,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }             
+              ]
 });
 $('.system-area').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToShow: 2,
+  slidesToScroll: 2,
   autoplay: true,
   autoplaySpeed: 2000,
   mobileFirst:true,
@@ -133,7 +158,7 @@ $('.system-area').slick({
   breakpoint: 1024,
   settings: {
     slidesToShow: 2,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     infinite: true,
     dots: true
   }
@@ -141,7 +166,7 @@ $('.system-area').slick({
   {
   breakpoint: 600,
   settings: {
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 2
   }
   },

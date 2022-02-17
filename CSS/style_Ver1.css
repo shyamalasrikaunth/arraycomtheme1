@@ -6,7 +6,8 @@ font-family: 'Roboto Mono', monospace; */
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+   
     font-family: 'Fira Sans', sans-serif;
   }
   @keyframes loaderpulse {
@@ -97,7 +98,7 @@ body {
   .top-bar::before {
     content: "";
     height: 10%;
-    width: 53%;
+    width: 49%;
     /* #858789;*/
     /* background: #858789; */
     background:#858789;
@@ -235,7 +236,7 @@ body {
   .banner-content {
       font-family:'Fira Sans';
     position: absolute;
-     z-index:1;
+    z-index: 99999;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -253,12 +254,6 @@ body {
     /* color: rgb(3, 46, 66); */
     
  }
- .gradient-text {
-  background-image: linear-gradient(30deg, #5c3131, #333333) !important;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent !important;
-}
  .banner-content h1 span
 
  {
@@ -272,8 +267,6 @@ body {
      
 }
 /*****about section ***/
-.fa-parking{    padding: 19px;
-  font-size: 30px;}
 .about1
 {
     padding-top:100px;
@@ -650,7 +643,7 @@ padding:70px;
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: contain;
-    height:640px;
+    height:620px;
     padding:50px;
     color:white;
 }
@@ -707,8 +700,7 @@ height:400px;
  .solar-desc
  {
   font-size: 16px;
-  line-height: 37px !important;
-   
+  line-height: 27px;
   text-align: left;
   color:#464646;
   line-height:2rem;
@@ -850,7 +842,7 @@ height:400px;
   }
   .div-nav-tabs ul li
   {
-    /* padding: 10px 20px; */
+    padding: 10px 20px;
     margin: 0;
     border-style: solid;
     border-width: 0;
@@ -899,7 +891,7 @@ height:400px;
     }
     /***SYSTEM Integration **/
     .system-area .slick-slide img{
-      width:400px !important;
+      width:300px !important;
     }
     .system-area h4{
       font-size:1.25rem !important;
@@ -965,77 +957,75 @@ height:400px;
   color: #545154
 
 }
-.tab-pane img{
-  width: 100%;
-  height: 60%;
-}
 /***media queries****/
 @media (max-width: 575px){
-  /**banne section **/
   .banner-content{
     width:100%;
   }
-  .img-content img {
-   
-    height: 45vh !important;
-     
-}
-  .banner-content h1{
-    font-size:37px !important;
-    line-height:50px;
-    text-align: center !important;
+  .img-content img 
+  {
+    height: 50vh;
   }
-  /**about section **/
-  .about1
-{
-  padding-top:15px;
-   
-  margin-bottom:10px;
-}
+  .banner-content h1{
+    font-size:40px !important;
+    line-height:50px;
+  }
   .abttitle
   {
     width:100%;
   }
-  .abttitle h2
-  {
-    font-size:1.05rem;
-    font-weight:600;
-  }
-  .about-content
-  {
-    padding-top:15px;
-    margin:0;
-  }
-   .containersection
-  .title-desc
-  {
-    font-size:16px !important;
-  }
   .containersection
 {
-  padding:20px;
-  margin-top:20px;
+  padding:0px;
 }
-.containersection img
+.servicessection
 {
-  width:100%;
+padding: 0px;
 }
  
- .sub-title span{
-   padding-top:10px;
- };
- 
- .divider{
-   padding:10px 0px 10px 0px;
- }
- 
- 
-hr {
-    background-color: #bb0b0b;
-    height: 1px;
-    border: 0;
+.about1
+{
+  padding-top:15px;
 }
-/***call for action  ***/
+.title-desc {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: left;
+  text-justify: inter-word;
+  word-spacing:-2px;
+   
+}
+.title-heading
+{
+  font-size:1.15rem;
+  font-weight:600;
+}
+.about-content{
+  margin:0px;
+  padding-top:20px;
+}
+ 
+.servicessection .list-items {
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+}
+.containersection img{
+  width:333px;
+  padding-top:10px;
+}
+.containersection .sub-title
+{
+  padding-top:10px;
+}
+.containersection p
+{
+  font-size:17px;
+  text-align:left;
+}
+.divider
+{
+  padding:5px 0px 5px 0px;
+}
 .callforaction
 {
   padding: 40px 0px 40px 0px;
@@ -1045,359 +1035,4 @@ hr {
   font-size:1.15rem;
   font-weight: 500;
 }
-a.gtouch {
-  /* other styles */
-  display: block;
-  width:150px;
-  margin-top:10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.imgservice img{
-  width:70px;
-  height:70px;
-  padding-left:20px;
-}
-/***services section ***/
-.servicessection 
-{
-  padding: 20px 0px 20px 0px;
-}
-.servicessection .title-desc
-{
-  font-size:15px;
-}
-.title-heading
-  {
-    font-size:1.05rem;
-    font-weight:600;
-  }
-  .services-section {
-    padding: 20px 0px 0px 0px;
-}
-.list-icon .img1 {
-  width: 70px;
-  padding:15px;
-}
-.list-icon .img2 {
-  width: 64px;
-  padding: 11px 10px 10px 15px
-  /* padding: 13px 14px 10px 17px; */
-}
-.list-description 
-{
-  font-size: 14px;
-    text-align: justify;
-}
-.fa-parking {
-  font-size: 30px;
-  padding: 18px;
-}
-.bparking
-{
-  top:37%;
-}
-/***team section ***/
-.borderclass
-{
-  width:85%;
-  margin:auto;
-  margin-bottom:20px !important;
-}
-.borderclass img
-{
-  padding:10px;
-  height:175px;
-}
-.team-position
-{
-  font-size:14px;
-}
-.share-icon span
-{
-  right:38px;
-}
-.team-social1
-{
-  bottom:201px;
-  right:41px;
-}
-.team{
-  padding:0px;
-}
-/***footer**/
-.subscribe p
-{
-font-size:11px;
-}
-/***division pages**/
- .divlists
- {
-   padding-top:20px;
- }
-.divlists li a 
-{
-  font-size:15px;
-}
-.divlists li a:before
-{
-  margin-right:10px;
-}
-.servicebanner .img-content img{
-height:35vh;
-}
-.servicebanner  .banner-content
-{
-  top:37%;
-}
-.services {
-  padding: 20px 0px 10px 0px;
-}
-.services .title-desc 
-{
-  font-size:15px;
-
-}
-.sub-title span:after 
-{
-  top:65%;
-}
-
-/**service.html**/
-
-/***contact.html**/
-.contact{padding:0px;}
-.locdetails
-{
-  padding:20px;
-  height:720px;
-}
-.icon-holder
-{
-  margin:auto;
-}
-.locdetails p {
-  text-align:center;
-};
-input [type="submit"]
-{
- margin:20px 0px 20px 0px;
-}
-
-/**system Integration page**/
-.system-area .slick-slide img
-{
-  width:100% !important ;
-}
-.system-area h4
-{
-  font-size:1.05rem !important;
-}
-/**solar page**/
-.solarimg 
-{
-  width:100%;
-  height:100% !important;
-  padding-bottom:20px;
-}
-.nav-tabs .nav-item{
-  width: 31%;
-  padding:6px;
-}
-.nav-tabs .nav-link{
-  font-size:12px;
-
-}
-.tab-pane img{
-  width:100%;
-  height:60%;
-}
-
-/***tfm page***/
-.tfmimg1
-{
-  padding-top:20px;
-}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991.98px)
-{
-  /**about us page**/
-  .about1
-  {
-    margin-top:10px;
-    padding:0px;
-  }  
-  .img-content img
-  {
-    height:45vh;
-  }
-  .about-content img{
-    padding-left:80px;
-    padding-top:20px;
-  }
-  .containersection img
-  {
-  height:500px;
-  width:580px;
-  }
-  .top-bar::before {
-  width:70%;
-  }
-  .social-icons li 
-  {
-    padding-right:0px !important;
-  }
-  .containersection p {
-     
-    font-size: 18px;
-}
- 
-.callforaction
-{
-padding:30px;
-}
-.callforaction h3
-{
-  font-size:1.6rem;
-  font-weight:600;
-}
-.servicessection
-{
-  padding: 50px 0px 50px 0px
-}
-.servicessection .title-desc
-{
-  font-size:20px;
-}
-.list-description
-{
-  font-size:13px;
-}
-.borderclass img 
-{
-  height:155px;
-}
-.team-name
-{
-  font-size:14px;
-
-}
-.team-position{
-  font-size:12px;
-  font-weight:500;
-}
-.share-icon span{
-  top: 133px;
-  right: 10px;
-}
-.team-social1
-{
-  right:8px;
-}
-.circle
-{
-  width:166px;
-}
-.desc
-{
-  font-size:14px;
-}
-.teambanner{
-top:40%;
-}
-.divlists li a 
-{
-  font-size: 13px;
-  padding:14px 2px;
-}
-.divlists li a:before {
-  margin-right: -1px;
-}
-.info-box-title
-{
-  font-size:17px;
-}
-.info-box-no
-{
-  font-size:14px;
-}
-.system-area .slick-slide img{
-  width:320px!important;
-}
-
- 
-.system-area h4 {
-  font-size:1.05rem !important;
-}
-}
-/***mobile portrait mode**/
-@media (max-width: 767px) {
-
-  .nav-link
-  {
-    padding:0px !important;
-  }
-  .about1  {
-    padding-top:0px;
-  }
-  .imgservice span{
-    font-size:14px;
-  };
-  .title-heading
-  {
-    font-size:1.5rem !important;
-  }
-  .callforaction
-  {
-    padding:35px;
-  }
-  .callforaction h3
-  {
-    font-size:1.25rem;
-  }
-  .servicessection
-  {
-    padding: 20px 0px 20px 0px
-  }
-  .services-section
-  {
-    padding: 20px 0px 0px 0px
-  }
-  .borderclass
-  {
-    width: 70%;
-    margin: auto;
-    margin-bottom: 40px;
-  }
-  .borderclass img{
-height: 220px;
-padding:20px;
-  }
-  .share-icon span
-  {
-    top:177px;
-    right:155px;
-  }
-  .team-social1
-  {
-    bottom:295px;
-    right: 157px;
-  }
-  .nav-tabs .nav-link
-  {
-    font-size:14px;
-  }
-  .div-nav-tabs ul li
-  {
-    padding:10px 10px;
-  }
-  .system-area .slick-slide img{
-    width:250px!important;
-  }
-  
-   
-  .system-area h4 {
-    font-size:0.75rem !important;
-  }
 }

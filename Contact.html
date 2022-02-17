@@ -19,14 +19,13 @@
         <meta name="twitter:site" content="@arraycom" />
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="10 minutes" />
-        <link rel="icon" href="/Images/favicon1.png" sizes="32x32">
-        <link rel="icon" href="/Images/favicon1.png" sizes="192x192">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+        <link rel="icon" href="Images/favicon1.png" sizes="32x32">
+        <link rel="icon" href="Images/favicon1.png" sizes="192x192">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="CSS/style.css">
         <script
         src="https://kit.fontawesome.com/b7ab1e6218.js"
         crossorigin="anonymous"
@@ -38,7 +37,7 @@
 
         <div id="loader" class="loader">
           <div class="loader-container">
-            <div class='loader-icon'><img src="../Images/favicon1.png" alt="Arraycom India"></div>
+            <div class='loader-icon'><img src="Images/favicon1.png" alt="Arraycom India"></div>
           </div>
         </div>
     
@@ -47,7 +46,7 @@
         <div class="top-bar d-none d-sm-block">
           <div class="container">
             <div class="row">
-              <div class="col-lg-9 col-md-12">
+              <div class="col-lg-9 col-md-9 col-12">
                 <div class="top-bar1">
                   <ul>
                     <li>
@@ -62,7 +61,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-3 d-none d-lg-block">
+              <div class="col-lg-3 col-md-3 d-none d-md-block d-lg-block">
                 <div class="social-icons">
                   <ul>
                     <li>
@@ -93,10 +92,10 @@
       <section id="HeaderSection" class="header">
         <nav class="navbar navbar-default bg-light navbar-expand-sm ">
           <a class="logo1 navbar-brand" href="#">
-            <img src="/Images/logoblack.png" alt="logo">
+            <img src="Images/logoblack.png" alt="logo">
           </a>
           <a class="logo2 navbar-brand d-none" href="#">
-            <img src="/Images/logowhite.png" alt="logo">
+            <img src="Images/logowhite.png" alt="logo">
           </a>
           <!-- <span class="navbar-text d-none d-sm-block">
                                   Engineering for a better tomorrow
@@ -125,7 +124,7 @@
                 </a>
               </li>
               <li class="nav-item dropdown ml-5">
-                <a class="nav-link" href="" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="About.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
                   About Us
                 </a>
                 <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -145,7 +144,7 @@
                           </a>
                       </li> -->
               <li class="nav-item dropdown ml-5">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="Services.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
                   Services
                 </a>
                 <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -164,16 +163,21 @@
     
         </nav>
       </section>
-      <div id="BannerSection" class="banner">
-        <div class="img-content">
-          <img src="/Images/Pages/contact.png" class="img-responsive" alt="">
+      <div id="BannerSection container-fluid" class="banner">
+        <div class="row">
+          <div class="col-12">
+            <div class="img-content">
+              <img src="Images/Pages/contact.png" class="img-responsive" alt="">
+            </div>
+            <!-- <div class='overlay'></div> -->
+            <div class="banner-content ml-auto mt-auto">
+              <h1>Get In Touch</h1>
+        
+        
+            </div>
+          </div>
         </div>
-        <!-- <div class='overlay'></div> -->
-        <div class="banner-content ml-auto mt-auto">
-          <h1>Get In Touch</h1>
-    
-    
-        </div>
+       
       </div>
 
       <section id="contactsection mt-4 mb-2" class="contact">
@@ -181,7 +185,7 @@
             <h2>Get in Touch</h2>
             <div class="row">
                 
-                <div class="col-md-8 mt-5">
+                <div class="col-lg-8 col-md-12 mt-5 col-12">
                     <form>
                         <div class="form-group row">
                             <div class="col-sm-6">
@@ -230,7 +234,7 @@
                                     </div>
                                 </div>
                                 <div class="row mt-5">
-                                  <div><input type="submit" value="Send Message" class="wpcf7-form-control wpcf7-submit" aria-invalid="false"><div class="gyan-cf7-loader-active"><span class="ajax-loader"></span></div></div>
+                                  <div class="col-sm-10"><input type="submit" value="Send Message" class="wpcf7-form-control wpcf7-submit" aria-invalid="false"><div class="gyan-cf7-loader-active"><span class="ajax-loader"></span></div></div>
                                 </div>
                             </div>
                            
@@ -239,19 +243,20 @@
                       </form>
                     
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class=" col-lg-4 col-md-12 col-sm-12">
                     <div class="locdetails">
                     
                       <div class="row">
-                        <div class="col-sm-2">
+                        <div class="col-sm-2 col-xs-12 col-lg-2 ">
                               <div class="icon-holder">
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                               </div>
                         </div>
-                        <div class="col-sm-10">
+                        <div class="col-sm-10   col-xs-12   ">
                          <p class="text-white">Registered Office </p> 
                           <p class="greyfont">B-13 13/1 & 14, GIDC Electronic Estate,Gujarat-382024</p>
                         </div>
+                        
                       </div>
                       <div class="row mt-2">
                         <div class="col-sm-2">
@@ -302,113 +307,110 @@
       </section>
       <section id="Clientsection" class="Client_services">
         <div class="owl-carousel owl-theme" id="owl-demo">
-          <div class="item"> <img src="/Images/Client/1.png" /> </div>
-          <div class="item"> <img src="/Images/Client/2.png" /> </div>
-          <div class="item"> <img src="/Images/Client/dd1.png" /> </div>
-          <div class="item"> <img src="/Images/Client/4.png" /> </div>
-          <div class="item"> <img src="/Images/Client/5.png" /> </div>
-          <div class="item"> <img src="/Images/Client/6.png" /> </div>
-          <div class="item"> <img src="/Images/Client/7.png" /> </div>
-          <div class="item"> <img src="/Images/Client/8.png" /> </div>
-          <div class="item"> <img src="/Images/Client/9.png" /> </div>
+          <div class="item"> <img src="Images/Client/1.png" /> </div>
+          <div class="item"> <img src="Images/Client/2.png" /> </div>
+          <div class="item"> <img src="Images/Client/dd1.png" /> </div>
+          <div class="item"> <img src="Images/Client/4.png" /> </div>
+          <div class="item"> <img src="Images/Client/5.png" /> </div>
+          <div class="item"> <img src="Images/Client/6.png" /> </div>
+          <div class="item"> <img src="Images/Client/7.png" /> </div>
+          <div class="item"> <img src="Images/Client/8.png" /> </div>
+          <div class="item"> <img src="Images/Client/9.png" /> </div>
     
           </>
       </section>
       <footer id="footer" class="footer-1">
-    
+     
         <div class="main-footer widgets-dark typo-light">
-          <div class="container-fluid">
-            <div class="row">
-    
-              <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="widget subscribe no-box">
-                  <h5 class="widget-title">Arraycom India Ltd<span></span></h5>
-                  <p>Arraycom has over 25 years of experience across system integration,manufacturing,desigining and
-                    delivering renewable solutions,and innovative IT applications like parking,security,online education.
-                  </p>
-                </div>
-              </div>
-    
-              <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="widget no-box">
-                  <h5 class="widget-title">Quick Links<span></span></h5>
-                  <ul class="thumbnail-widget">
-                    <li>
-                      <div class="thumb-content"><a href="Index.html">Home</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="About.html">About Us</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="Services.html">Services</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="Contact.html">Contact Us</a></div>
-                    </li>
-    
-                  </ul>
-                </div>
-              </div>
-    
-              <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="widget no-box">
-                  <h5 class="widget-title">Our Services<span></span></h5>
-                  <ul class="thumbnail-widget">
-                    <li>
-                      <div class="thumb-content"><a href="SI.html">System Integration</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="solar.html">Solar Power Division</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="tfm.html">Thick Film Material</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="security.html">Security and Surveillance</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="parking.html">Smart Parking Solutions</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="#.">Public Distribution System</a></div>
-                    </li>
-    
-                  </ul>
-                </div>
-              </div>
-    
-              <div class="col-xs-12 col-sm-6 col-md-3">
-    
-                <div class="widget no-box">
-                  <h5 class="widget-title">Contact Us<span></span></h5>
-    
-                  <p><a href="mailto:info@domain.com" title="glorythemes">info@arraycom.co.in</a></p>
-                  <ul class="social-footer2">
-    
-                    <li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"
-                        style="color:#ffffff;background-color:#1b4195;"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class=""><a href="https://twitter.com" target="_blank" title="Twitter"
-                        style="color:#ffffff;background-color:#0e97d1;"><i class="fab fa-twitter"></i></a></li>
-                    <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"
-                        style="color:#ffffff;background-color:#b41a32;"><i class="fab fa-instagram"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-    
-            </div>
-          </div>
+        <div class="container-fluid">
+        <div class="row">
+          
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="widget subscribe no-box">
+        <h5 class="widget-title">Arraycom India Ltd<span></span></h5>
+        <p>Arraycom has over 25 years of experience across system integration,manufacturing,desigining and delivering renewable solutions,and innovative IT applications like parking,security,online education. </p>
         </div>
-    
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Quick Links<span></span></h5>
+        <ul class="thumbnail-widget">
+        <li>
+        <div class="thumb-content"><a href="Index.html">Home</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="About.html">About Us</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="Services.html">Services</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="Contact.html">Contact Us</a></div> 
+        </li>
+        <li>
+          <div class="thumb-content"><a href="AnnualReport.html">Annual Reports</a></div> 
+          </li>
+        </ul>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Our Services<span></span></h5>
+        <ul class="thumbnail-widget">
+          <li>
+          <div class="thumb-content"><a href="SI.html">System Integration</a></div> 
+          </li>
+          <li>
+          <div class="thumb-content"><a href="solar.html">Solar Panel</a></div> 
+          </li>
+          <li>
+          <div class="thumb-content"><a href="tfm.html">Thick Film Material</a></div> 
+          </li>
+          <li>
+          <div class="thumb-content"><a href="security.html">Security and Surveillance</a></div> 
+          </li>
+          <li>
+            <div class="thumb-content"><a href="parking.html">Smart Parking Solutions</a></div> 
+            </li>
+            <li>
+              <div class="thumb-content"><a href="#.">Public Distribution System</a></div> 
+              </li>
+           
+          </ul>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        
+        <div class="widget no-box">
+        <h5 class="widget-title">Contact Us<span></span></h5>
+        
+        <p><a href="mailto:info@domain.com" title="glorythemes">info@arraycom.co.in</a></p>
+        <ul class="social-footer2">
+       
+        <li class=""><a href="https://www.facebook.com/arraycomindialimited" target="_blank" title="Facebook" style="color:#ffffff;background-color:#1b4195;"><i class="fab fa-facebook-f"></i></a></li>
+        <li class=""><a href="https://twitter.com/arraycom" target="_blank" title="Twitter" style="color:#ffffff;background-color:#0e97d1;"><i class="fab fa-twitter"></i></a></li>
+        <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/" style="color:#ffffff;background-color:#b41a32;"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        
+        </div>
+        </div>
+        </div>
+          
         <div class="footer-copyright text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 ">
-                <p class="text-center">Copyright Arraycom India © 2021. All rights reserved.</p>
-              </div>
-            </div>
-          </div>
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12 ">
+        <p class="text-center">Copyright Arraycom India © 2021. All rights reserved.</p>
         </div>
-      </footer>
+        </div>
+        </div>
+        </div>
+        </footer>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -423,6 +425,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="../Js/main.js"></script>
+      <script src="Js/main.js"></script>
 </body>
 </html>

@@ -20,10 +20,9 @@
         <meta name="twitter:site" content="@arraycom" />
         <meta name="twitter:label1" content="Est. reading time" />
         <meta name="twitter:data1" content="10 minutes" />
-        <link rel="icon" href="/Images/favicon1.png" sizes="32x32">
-        <link rel="icon" href="/Images/favicon1.png" sizes="192x192">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+        <link rel="icon" href="Images/favicon1.png" sizes="32x32">
+        <link rel="icon" href="Images/favicon1.png" sizes="192x192">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
           integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,9 +31,9 @@
           integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
       
-        <link rel="stylesheet" href="/CSS/style.css">
-        <link rel="stylesheet" href="/CSS/slick.css">
-        <link rel="stylesheet" href="/CSS/slick-theme.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/slick.css">
+        <link rel="stylesheet" href="CSS/slick-theme.css">
         <script src="https://kit.fontawesome.com/b7ab1e6218.js" crossorigin="anonymous"></script>
       
       </head>
@@ -43,7 +42,7 @@
 
         <div id="loader" class="loader">
           <div class="loader-container">
-            <div class='loader-icon'><img src="../Images/favicon1.png" alt="Arraycom India"></div>
+            <div class='loader-icon'><img src="Images/favicon1.png" alt="Arraycom India"></div>
           </div>
         </div>
     
@@ -98,10 +97,10 @@
       <section id="HeaderSection" class="header">
         <nav class="navbar navbar-default bg-light navbar-expand-sm ">
           <a class="logo1 navbar-brand" href="#">
-            <img src="/Images/logoblack.png" alt="logo">
+            <img src="Images/logoblack.png" alt="logo">
           </a>
           <a class="logo2 navbar-brand d-none" href="#">
-            <img src="/Images/logowhite.png" alt="logo">
+            <img src="Images/logowhite.png" alt="logo">
           </a>
           <!-- <span class="navbar-text d-none d-sm-block">
                                   Engineering for a better tomorrow
@@ -154,16 +153,20 @@
     
         </nav>
       </section>
-      <div id="BannerSection" class="banner">
-        <div class="img-content">
-          <img src="/Images/Headerimages/tfm.jpg" class="img-responsive" alt="">
+      <div id="BannerSection container-fluid" class="banner">
+        <div class="row">
+          <div class="col-12">
+            <div class="img-content">
+              <img src="Images/Headerimages/tfm.jpg" class="img-responsive" alt="">
+            </div>
+            <!-- <div class='overlay'></div> -->
+            <div class="banner-content ml-auto mt-auto">
+              <h1><span>Thick Film Material Division</span></h1>
+          
+            </div>
+          </div>
         </div>
-        <!-- <div class='overlay'></div> -->
-        <div class="banner-content ml-auto mt-auto">
-          <h1>Thick Film Material Division</h1>
-    
-    
-        </div>
+      
       </div>
       <section id="tfm" class="tfmsection mt-5">
           <div class="container">
@@ -178,31 +181,31 @@
                     </div>
                     <div class="row pt-2">
                         <div class="col-md-6">
-                            <img class="img-responsive tfmimg1 " src="../Images/Divisions/tfm/1.JPG" />
+                            <img class="img-fluid tfmimg1 " src="Images/Divisions/tfm/1.JPG" />
                         </div>
                         <div class="col-md-6">
-                            <img class="img-responsive tfmimg1 " src="../Images/Divisions/tfm/3.jpg" />
+                            <img class="img-fluid tfmimg1 " src="Images/Divisions/tfm/3.jpg" />
                         </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                         <div class="divlist">
                             <div class="container">
-                                <ul class="divlists">
+                                <ul class="divlists list-unstyled">
                                     <li >
                                         <a href="solar.html" >Solar Power Division</a>
                                     </li>
                                     <li>
-                                        <a href="#">System Integration Division</a>
+                                        <a href="SI.html">System Integration Division</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="active">Thick FIlm material Division</a>
+                                        <a href="tfm.html" class="active">Thick FIlm material Division</a>
                                     </li>
                                     <li>
-                                        <a href="#">Security and Surveillance</a>
+                                        <a href="security.html">Security and Surveillance</a>
                                     </li>
                                     <li>
-                                        <a href="#">Smart Parking Solutions</a>
+                                        <a href="parking.html">Smart Parking Solutions</a>
                                     </li>
                                     <li>
                                         <a href="#">Public Distribution System</a>
@@ -213,7 +216,7 @@
                         <div class="callusbox">
                             <div class="infobox">
                                 <div class="infobox-icon" style="transform: rotate(0deg);">
-                                    <img width="53" height="53" src="../Images/icons/icon-call.png" class="attachment-full size-full" alt="" loading="lazy">
+                                    <img width="53" height="53" src="Images/icons/icon-call.png" class="attachment-full size-full" alt="" loading="lazy">
                                 </div>
                             </div>
                             <div class="infobox-content">
@@ -229,13 +232,13 @@
                    
                  </div>
                   <div class="col-md-6">
-                    <img src="../Images/Divisions/solar2.jpg"/>
+                    <img src="Images/Divisions/solar2.jpg"/>
                 </div> 
                 
               </div>-->
           </div>
         
-         <div class="container">
+         <div class="container mt-2">
             <h2 class="solar-heading">Products we offer</h2>
             <div class="row">
                 <div class="col-md-8">
@@ -313,18 +316,18 @@
             <div class="col-md-4 mt-4">
                 <div class="solar-area slider">
                     <div class="slide" >.
-                        <img src='../Images/Divisions/tfm/tfm1-350x225.png'   alt="">
+                        <img src='Images/Divisions/tfm/tfm1-350x225.png'   alt="">
                    </div>
                         <div class="slide">
                              
-                            <img src='../Images/Divisions/tfm/tfm2-350x225.png'   alt=""/>
+                            <img src='Images/Divisions/tfm/tfm2-350x225.png'   alt=""/>
                        </div>
                         <div class="slide">
-                            <img src='../Images/Divisions/tfm/tfm4-350x225.png'    alt="">
+                            <img src='Images/Divisions/tfm/tfm4-350x225.png'    alt="">
                       </div>
                         
                         <div class="slide" >
-                            <img src='../Images/Divisions/tfm/2.jpg'   alt="">
+                            <img src='Images/Divisions/tfm/2.jpg'   alt="">
                       </div>
                     
                          
@@ -340,113 +343,110 @@
      
       <section id="Clientsection" class="Client_services">
         <div class="owl-carousel owl-theme" id="owl-demo">
-          <div class="item"> <img src="/Images/Client/1.png" /> </div>
-          <div class="item"> <img src="/Images/Client/2.png" /> </div>
-          <div class="item"> <img src="/Images/Client/dd1.png" /> </div>
-          <div class="item"> <img src="/Images/Client/4.png" /> </div>
-          <div class="item"> <img src="/Images/Client/5.png" /> </div>
-          <div class="item"> <img src="/Images/Client/6.png" /> </div>
-          <div class="item"> <img src="/Images/Client/7.png" /> </div>
-          <div class="item"> <img src="/Images/Client/8.png" /> </div>
-          <div class="item"> <img src="/Images/Client/9.png" /> </div>
+          <div class="item"> <img src="Images/Client/1.png" /> </div>
+          <div class="item"> <img src="Images/Client/2.png" /> </div>
+          <div class="item"> <img src="Images/Client/dd1.png" /> </div>
+          <div class="item"> <img src="Images/Client/4.png" /> </div>
+          <div class="item"> <img src="Images/Client/5.png" /> </div>
+          <div class="item"> <img src="Images/Client/6.png" /> </div>
+          <div class="item"> <img src="Images/Client/7.png" /> </div>
+          <div class="item"> <img src="Images/Client/8.png" /> </div>
+          <div class="item"> <img src="Images/Client/9.png" /> </div>
     
           </>
       </section>
       <footer id="footer" class="footer-1">
-    
+     
         <div class="main-footer widgets-dark typo-light">
-          <div class="container-fluid">
-            <div class="row">
-    
-              <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="widget subscribe no-box">
-                  <h5 class="widget-title">Arraycom India Ltd<span></span></h5>
-                  <p>Arraycom has over 25 years of experience across system integration,manufacturing,desigining and
-                    delivering renewable solutions,and innovative IT applications like parking,security,online education.
-                  </p>
-                </div>
-              </div>
-    
-              <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="widget no-box">
-                  <h5 class="widget-title">Quick Links<span></span></h5>
-                  <ul class="thumbnail-widget">
-                    <li>
-                      <div class="thumb-content"><a href="Index.html">Home</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="About.html">About Us</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="Services.html">Services</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="Contact.html">Contact Us</a></div>
-                    </li>
-    
-                  </ul>
-                </div>
-              </div>
-    
-              <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="widget no-box">
-                  <h5 class="widget-title">Our Services<span></span></h5>
-                  <ul class="thumbnail-widget">
-                    <li>
-                      <div class="thumb-content"><a href="SI.html">System Integration</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="solar.html">Solar Power Division</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="tfm.html">Thick Film Material</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="security.html">Security and Surveillance</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="parking.html">Smart Parking Solutions</a></div>
-                    </li>
-                    <li>
-                      <div class="thumb-content"><a href="#.">Public Distribution System</a></div>
-                    </li>
-    
-                  </ul>
-                </div>
-              </div>
-    
-              <div class="col-xs-12 col-sm-6 col-md-3">
-    
-                <div class="widget no-box">
-                  <h5 class="widget-title">Contact Us<span></span></h5>
-    
-                  <p><a href="mailto:info@domain.com" title="glorythemes">info@arraycom.co.in</a></p>
-                  <ul class="social-footer2">
-    
-                    <li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"
-                        style="color:#ffffff;background-color:#1b4195;"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class=""><a href="https://twitter.com" target="_blank" title="Twitter"
-                        style="color:#ffffff;background-color:#0e97d1;"><i class="fab fa-twitter"></i></a></li>
-                    <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"
-                        style="color:#ffffff;background-color:#b41a32;"><i class="fab fa-instagram"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-    
-            </div>
-          </div>
+        <div class="container-fluid">
+        <div class="row">
+          
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="widget subscribe no-box">
+        <h5 class="widget-title">Arraycom India Ltd<span></span></h5>
+        <p>Arraycom has over 25 years of experience across system integration,manufacturing,desigining and delivering renewable solutions,and innovative IT applications like parking,security,online education. </p>
         </div>
-    
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Quick Links<span></span></h5>
+        <ul class="thumbnail-widget">
+        <li>
+        <div class="thumb-content"><a href="Index.html">Home</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="About.html">About Us</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="Services.html">Services</a></div> 
+        </li>
+        <li>
+        <div class="thumb-content"><a href="Contact.html">Contact Us</a></div> 
+        </li>
+        <li>
+          <div class="thumb-content"><a href="AnnualReport.html">Annual Reports</a></div> 
+          </li>
+        </ul>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Our Services<span></span></h5>
+        <ul class="thumbnail-widget">
+          <li>
+          <div class="thumb-content"><a href="SI.html">System Integration</a></div> 
+          </li>
+          <li>
+          <div class="thumb-content"><a href="solar.html">Solar Panel</a></div> 
+          </li>
+          <li>
+          <div class="thumb-content"><a href="tfm.html">Thick Film Material</a></div> 
+          </li>
+          <li>
+          <div class="thumb-content"><a href="security.html">Security and Surveillance</a></div> 
+          </li>
+          <li>
+            <div class="thumb-content"><a href="parking.html">Smart Parking Solutions</a></div> 
+            </li>
+            <li>
+              <div class="thumb-content"><a href="#.">Public Distribution System</a></div> 
+              </li>
+           
+          </ul>
+        </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+        
+        <div class="widget no-box">
+        <h5 class="widget-title">Contact Us<span></span></h5>
+        
+        <p><a href="mailto:info@domain.com" title="glorythemes">info@arraycom.co.in</a></p>
+        <ul class="social-footer2">
+       
+        <li class=""><a href="https://www.facebook.com/arraycomindialimited" target="_blank" title="Facebook" style="color:#ffffff;background-color:#1b4195;"><i class="fab fa-facebook-f"></i></a></li>
+        <li class=""><a href="https://twitter.com/arraycom" target="_blank" title="Twitter" style="color:#ffffff;background-color:#0e97d1;"><i class="fab fa-twitter"></i></a></li>
+        <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/" style="color:#ffffff;background-color:#b41a32;"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        
+        </div>
+        </div>
+        </div>
+          
         <div class="footer-copyright text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 ">
-                <p class="text-center">Copyright Arraycom India © 2021. All rights reserved.</p>
-              </div>
-            </div>
-          </div>
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12 ">
+        <p class="text-center">Copyright Arraycom India © 2021. All rights reserved.</p>
         </div>
-      </footer>
+        </div>
+        </div>
+        </div>
+        </footer>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -464,6 +464,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
     integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="../Js/main.js"></script>
+      <script src="Js/main.js"></script>
 </body>
 </html>
