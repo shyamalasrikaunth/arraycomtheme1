@@ -136,19 +136,21 @@ footer {
     margin-bottom: 15px !important;
   }
   .work-icon {
-    width: 70px;
+    width: 100px;
     height: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .contact-icon {
-    width: 60px;
-    height: 50px;
+    width: 80px;
+    height: 60px;
     margin-top: 20px;
     margin-bottom: 10px;
   }
   .service-block-pink {
     margin-bottom: 75px !important;
+    width:262px !important;
+    margin-left:5px;
   }
   .footer {
     font-size: 0.75rem;
@@ -161,7 +163,7 @@ footer {
   }
   .servive-block-green1,
   .servive-block-green2 {
-    width: 162px;
+    width: 125px;
     height: 120px;
     min-height: 120px !important;
   }
