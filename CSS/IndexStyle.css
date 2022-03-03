@@ -72,11 +72,11 @@ body{
 }
 .footer {
   /*#01273a;*/
-  background: #01273a;
+  background: #05334b;
   color: white;
   opacity: 0.8;
   text-align: right;
-
+ height:40px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -107,6 +107,7 @@ footer {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .h1class {
     text-align: center !important;
+    font-size:2.5rem !important;
   }
 
   .main {
@@ -115,6 +116,7 @@ footer {
   .service-block-lightblue,
   .service-block-pink {
     min-height: 120px;
+    width:275px;
   }
   .servive-block a,
   .middle-content a,
@@ -149,8 +151,8 @@ footer {
   }
   .service-block-pink {
     margin-bottom: 75px !important;
-    width:262px !important;
-    margin-left:5px;
+    width:275px !important;
+    
   }
   .footer {
     font-size: 0.75rem;
